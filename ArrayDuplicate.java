@@ -12,6 +12,7 @@ public class ArrayDuplicate {
                                        System.out.println("Hello");
 					System.out.println("hi");
                                         System.out.println("Hello Papu");
+					 System.out.println("Hello Papu papu");
 				}
 			}
 		}
