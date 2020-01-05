@@ -13,6 +13,7 @@ public class ArrayDuplicate {
 					System.out.println("hi");
                                         System.out.println("Hello Papu");
 					 System.out.println("Hello Papu papu");
+                                         System.out.println("........................");
 				}
 			}
 		}
