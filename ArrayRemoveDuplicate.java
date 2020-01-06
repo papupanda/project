@@ -14,6 +14,7 @@ public class ArrayRemoveDuplicate {
 		}
 		for(int i=0;i<index;i++) {
 			System.out.println(arr1[i]);
+                        System.out.println("done");
 		}
 	}
 
