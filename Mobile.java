@@ -33,6 +33,8 @@ class Mobile
 		System.out.println("\tcolor :"+color);
 		System.out.println("hello");
 		System.out.println("Bye");
+		System.out.println("Bye");
+		System.out.println("Bye");
 
 
 
