@@ -31,6 +31,8 @@ class Mobile
 		System.out.println("\tmobilename :"+mobilename);
 		System.out.println("\tprice :"+price);
 		System.out.println("\tcolor :"+color);
+		System.out.println("hello");
+		System.out.println("Bye");
 
 
 
