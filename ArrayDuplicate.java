@@ -10,6 +10,8 @@ public class ArrayDuplicate {
 				if(arr[i]==arr[j]) {
 					System.out.println(arr[j]);
                                        System.out.println("Hello");
+                                       System.out.println("bye");
+                                       System.out.println("hello");
 					System.out.println("hi");
                                         System.out.println("Hello Papu");
 					System.out.println("Hello Papu papu");
