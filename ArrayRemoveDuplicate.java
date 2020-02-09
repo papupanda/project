@@ -16,6 +16,7 @@ public class ArrayRemoveDuplicate {
 			System.out.println(arr1[i]);
                         System.out.println("done");
                         System.out.println("rama");
+			System.out.println("hellooooooooooooooooo");
 		}
 	}
 
