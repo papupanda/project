@@ -15,6 +15,8 @@ public class ArrayDuplicate {
 					System.out.println("Hello Papu papu");
                                         System.out.println("........................");
                                         System.out.println("........................");
+                                        System.out.println("...rama..........");
+                                        System.out.println(">>>sita>>>>>>>");
 				}
 			}
 		}
