@@ -17,6 +17,7 @@ public class ArrayDuplicate {
                                         System.out.println("........................");
                                         System.out.println("...rama..........");
                                         System.out.println(">>>sita>>>>>>>");
+                                        System.out.println("hhhhhhhhhhhhhhhhhhhhhhhhsssssssssssssssss");
 				}
 			}
 		}
