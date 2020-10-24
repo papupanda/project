@@ -1,5 +1,7 @@
 package com.nt.controller;
 
+import java.util.List;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -30,6 +32,13 @@ public class EmpController {
 		String saveid="Contact Saved"+save;
 		model.addAttribute("sucess",saveid);
 		return "hello";
+	}
+	@GetMapping("/get")
+	public String getAll(Model model) {
+		List<Employee> all = empservice.getAll();
+		model.addAttribute("all", all);
+		System.out.println(all);
+		return "";
 	}
 
 }
