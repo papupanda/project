@@ -14,13 +14,16 @@ import com.nt.service.IserviceEmp;
 public class EmpController {
 	@Autowired
 	private IserviceEmp empservice;
-	
+	//this method return first page
 	@GetMapping("/first")
 	public String Firstpage(Model model) {
 		Employee e=new Employee();
+		Employee e1=new Employee();
+		Employee e2=new Employee();
 		model.addAttribute("emp", e);
 		return "hello";
 	}
+	//this method save data
 	@PostMapping("/save")
 	public String SaveEmp(Model model,@ModelAttribute("emp") Employee e) {
 		Boolean save = empservice.save(e);
