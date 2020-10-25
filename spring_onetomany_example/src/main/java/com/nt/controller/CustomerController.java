@@ -16,13 +16,14 @@ public class CustomerController {
 	
 	@Autowired
 	private CustomerService cservice;
-	
+	//save data
 	@PostMapping("/save")
 	public Customer savedata(@RequestBody Customer c) {
 		Customer savedata = cservice.savedata(c);
 		return savedata;
 		
 	}
+     //get data
 	@GetMapping("/get")
 	public List<Customer> getAll(){
 		List<Customer> alldata = cservice.getAlldata();
