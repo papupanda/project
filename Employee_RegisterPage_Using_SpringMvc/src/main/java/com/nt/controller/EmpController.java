@@ -40,5 +40,13 @@ public class EmpController {
 		System.out.println(all);
 		return "";
 	}
+	@GetMapping("/first")
+	public String Firstpage(Model model) {
+		Employee e=new Employee();
+		Employee e1=new Employee();
+		Employee e2=new Employee();
+		model.addAttribute("emp", e);
+		return "hello";
+	}
 
 }
