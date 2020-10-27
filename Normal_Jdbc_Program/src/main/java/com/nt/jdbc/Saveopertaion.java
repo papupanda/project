@@ -15,6 +15,12 @@ public class Saveopertaion {
 		ResultSet rs=null;
 		
 		String sql="SELECT * FROM STUU";
+		/*
+		 * String driverclass="oracle.jdbc.driver.OracleDriver";
+		String url="jdbc:oracle:thin:@localhost:1521:xe";
+		String username="system";
+		String password="papu";
+		 */
 		
 		//1.jdbc properties
 		String driverclass="oracle.jdbc.driver.OracleDriver";
