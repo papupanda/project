@@ -29,6 +29,14 @@ public class CustomerController {
 		List<Customer> alldata = cservice.getAlldata();
 		return alldata;
 	}
+	/*  //get data
+	@GetMapping("/get")
+	public List<Customer> getAll(){
+		List<Customer> alldata = cservice.getAlldata();
+		return alldata;
+	}
+	 * 
+	 */
 	
 	
 
